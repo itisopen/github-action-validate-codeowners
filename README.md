@@ -1,8 +1,9 @@
 
 
 <!-- markdownlint-disable -->
-# GitHub Action to Validate CODEOWNERS <a href="https://itisopen.net/homepage?utm_source=github&utm_medium=readme&utm_campaign=itisopen/github-action-validate-codeowners&utm_content="><img align="right" src="https://itisopen.net/logo-300x69.svg" width="150" /></a>
-<a href="https://github.com/itisopen/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners"><img src="https://github.com/itisopen/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main" alt="Test Status"/></a><a href="https://github.com/itisopen/github-action-validate-codeowners/releases/latest"><img src="https://img.shields.io/github/release/itisopen/github-action-validate-codeowners.svg" alt="Latest Release"/></a><a href="https://slack.itisopen.net"><img src="https://slack.itisopen.net/badge.svg" alt="Slack Community"/></a>
+<a href="https://itisopen.net/homepage"><img src="https://github.com/itisopen/github-action-validate-codeowners/blob/itisopen/.github/banner.png?raw=true" alt="Project Banner"/></a><br/>
+    <p align="right">
+<a href="https://github.com/itisopen/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners"><img src="https://github.com/itisopen/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main" alt="Test Status"/></a><a href="https://github.com/itisopen/github-action-validate-codeowners/releases/latest"><img src="https://img.shields.io/github/release/itisopen/github-action-validate-codeowners.svg" alt="Latest Release"/></a><a href="https://slack.itisopen.net"><img src="https://slack.itisopen.net/badge.svg" alt="Slack Community"/></a></p>
 <!-- markdownlint-restore -->
 
 <!--
