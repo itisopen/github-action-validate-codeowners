@@ -15,35 +15,38 @@ copyrights:
   - name: "Cloud Posse, LLC"
     url: "https://cloudposse.com"
     year: "2022"
+  - name: "ITisOpen"
+    url: "https://itisopen.net"
+    year: "2025"
 
 # Canonical GitHub repo
-github_repo: cloudposse/github-action-validate-codeowners
+github_repo: itisopen/github-action-validate-codeowners
 
 # Badges to display
 badges:
   - name: "Test Status"
-    image: "https://github.com/cloudposse/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main"
-    url: "https://github.com/cloudposse/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners"
+    image: "https://github.com/itisopen/github-action-validate-codeowners/workflows/validate-codeowners/badge.svg?branch=main"
+    url: "https://github.com/itisopen/github-action-validate-codeowners/actions?query=workflow%3Avalidate-codeowners"
   - name: "Latest Release"
-    image: "https://img.shields.io/github/release/cloudposse/github-action-validate-codeowners.svg"
-    url: "https://github.com/cloudposse/github-action-validate-codeowners/releases/latest"
+    image: "https://img.shields.io/github/release/itisopen/github-action-validate-codeowners.svg"
+    url: "https://github.com/itisopen/github-action-validate-codeowners/releases/latest"
   - name: "Slack Community"
-    image: "https://slack.cloudposse.com/badge.svg"
-    url: "https://slack.cloudposse.com"
+    image: "https://slack.itisopen.net/badge.svg"
+    url: "https://slack.itisopen.net"
 
 related:
   - name: "GitHub Action Auto-format"
     description: "Add standard files to a repo and keep its README up to date"
-    url: "https://github.com/cloudposse/github-action-auto-format"
+    url: "https://github.com/itisopen/github-action-auto-format"
   - name: "GitHub Action Auto-release"
     description: "Automatically draft release notes for a new release when merges are made into the default branch"
-    url: "https://github.com/cloudposse/github-action-auto-release"
+    url: "https://github.com/itisopen/github-action-auto-release"
   - name: "GitHub Action Terraform Auto-context"
     description: "Automatically update `context.tf` whenever a new version becomes available"
-    url: "https://github.com/cloudposse/github-action-terraform-auto-context"
+    url: "https://github.com/itisopen/github-action-terraform-auto-context"
   - name: "GitHub Action Terraform CI"
     description: "Full suite of Terraform CI actions, along with chatops support"
-    url: "https://github.com/cloudposse/github-action-terraform-ci"
+    url: "https://github.com/itisopen/github-action-terraform-ci"
 
 # References
 references:
@@ -65,16 +68,18 @@ usage: |-
 # Example usage
 examples: |-
   Here's a real world example:
-  - [`github-action-validate-codeowners`](https://github.com/cloudposse/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - Cloud Posse's self-testing Validate CODEOWNERS GitHub Action
+  - [`github-action-validate-codeowners`](https://github.com/itisopen/github-action-validate-codeowners/.github/workflows/validate-codeowners.yml) - ITisOpen's self-testing Validate CODEOWNERS GitHub Action
 
 # How to get started quickly
 quickstart: |-
   Here's how to get started...
   1. Copy the `.github/workflows/validate-codeowners.yml` file from this repository into the `.github/workflows` folder of the repository to which you'd like to add Validate CODEOWNERS functionality.
   2. Replace `${{ secrets.CODEOWNERS_VALIDATOR_TOKEN_PUBLIC }}` with the name of a token whose permissions are in line with your target repo's requirements, according to the instructions [here](https://github.com/mszostok/codeowners-validator/blob/main/docs/gh-token.md).
-  3. (Optional) Update the `main` pin inside `validate-codeowners.yml` to a fixed version. Consult https://github.com/cloudposse/github-action-validate-codeowners/releases for a list of available versions.
+  3. (Optional) Update the `main` pin inside `validate-codeowners.yml` to a fixed version. Consult https://github.com/itisopen/github-action-validate-codeowners/releases for a list of available versions.
 
 # Contributors to this project
 contributors:
   - name: "Dylan Bannon"
     github: "dylanbannon"
+  - name: "Patrice Lachance"
+    github: "patlachance"
